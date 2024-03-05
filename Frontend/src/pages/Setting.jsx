@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Sidenav from '../Sidenav';
 
 export default function Setting() {
   return (
-    <div>
-      Setting
-    </div>
+    <>
+      <Sidenav />
+      <div>Settings</div>
+    </>
   )
 }

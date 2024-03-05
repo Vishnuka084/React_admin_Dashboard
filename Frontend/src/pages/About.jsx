@@ -1,9 +1,12 @@
 import React from 'react'
+import Sidenav from '../Sidenav'
 
 export default function About() {
   return (
-    <div>
-      About
-    </div>
+    <>
+      <Sidenav />
+      <div>About</div>
+    </>
+
   )
 }

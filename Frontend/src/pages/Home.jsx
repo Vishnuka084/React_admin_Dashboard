@@ -1,9 +1,12 @@
 import React from 'react'
+import Sidenav from './Sidenav';
+
 
 export default function Home() {
   return (
-    <div>
-      Home
-    </div>
+    <>
+        <Sidenav />
+        <div>Home</div>
+    </>
   )
 }
